@@ -1,0 +1,21 @@
+[
+    {
+        "title": "User Management System",
+        "tech": "React, Spring Boot, MySQL",
+        "github": "https://github.com/username/user-management",
+        "desc": [
+            "CRUD operations",
+            "REST APIs",
+            "Frontend-backend integration"
+        ]
+    },
+    {
+        "title": "Login & Signup App",
+        "tech": "React, Spring Boot",
+        "github": "https://github.com/username/login-app",
+        "desc": [
+            "JWT Authentication",
+            "Form validation"
+        ]
+    }
+]
