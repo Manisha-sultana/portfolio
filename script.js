@@ -1,17 +1,18 @@
-fetch("projects.json")
-    .then(res => res.json())
-    .then(data => {
-        const container = document.getElementById("projects");
-        data.forEach(p => {
-            container.innerHTML += `
-        <div class="project">
-          <h3>${p.title}</h3>
-          <p><b>Tech:</b> ${p.tech}</p>
-          <ul>
-            ${p.desc.map(d => `<li>${d}</li>`).join("")}
-          </ul>
-          <a href="${p.github}" target="_blank">GitHub</a>
-        </div>
-      `;
-        });
-    });
+const container = document.getElementById("projectContainer");
+
+projects.forEach(p => {
+  const card = document.createElement("div");
+  card.className = "project-card";
+
+  card.innerHTML = `
+    <h3>${p.title}</h3>
+    <p class="tech">${p.tech}</p>
+    <p>${p.desc}</p>
+    <ul>
+      ${p.points.map(pt => `<li>${pt}</li>`).join("")}
+    </ul>
+    <a href="${p.github}" target="_blank">GitHub</a>
+  `;
+
+  container.appendChild(card);
+});
