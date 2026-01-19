@@ -21,6 +21,16 @@ body {
     text-align: center;
 }
 
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+    /* ya apne theme color */
+    margin-bottom: 20px;
+}
+
 .hero h1 {
     font-size: 3rem;
 }
@@ -71,11 +81,6 @@ section {
     background-color: #1e40af;
     /* darker blue on hover */
 }
-
-
-
-
-
 
 .project-card {
     background: white;
