@@ -44,22 +44,38 @@ section {
     text-align: center;
 }
 
-.skills .skill-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 15px;
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    /* multiple lines me show kare */
+    gap: 10px;
+    /* spacing between skills */
+    margin-bottom: 20px;
 }
 
-.skills span {
-    background: #e5e7eb;
-    padding: 10px;
+.skill span {
+    background-color: #f59e0b;
+    /* yellow pill */
+    color: white;
+    padding: 6px 15px;
     border-radius: 20px;
-    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: default;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
-.projects {
-    background: #f3f4f6;
+.skill span:hover {
+    transform: scale(1.1);
+    /* thoda enlarge on hover */
+    background-color: #1e40af;
+    /* darker blue on hover */
 }
+
+
+
+
+
 
 .project-card {
     background: white;

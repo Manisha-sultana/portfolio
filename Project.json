@@ -1,25 +1,36 @@
-const projects = [
-    {
-    title: "User Management System",
-    tech: "React, Spring Boot, MySQL",
-    desc: "Full-stack application to manage users.",
-    points: [
-            "CRUD operations",
-            "REST APIs using Spring Boot",
-            "Frontend–backend integration",
-            "Tested APIs using Postman"
-        ],
-    github: "https://github.com/Manisha-sultana"
-    },
-    {
-    title: "Login & Signup Application",
-    tech: "React, Spring Boot",
-    desc: "Authentication system with JWT.",
-    points: [
-            "User authentication",
-            "JWT-based security",
-            "Form validation"
-        ],
-    github: "https://github.com/Manisha-sultana"
-    }
-];
+[
+  {
+    "title": "User Management System",
+    "tech": "React, Spring Boot, MySQL",
+    "desc": "Full-stack application to manage users.",
+    "points": [
+      "CRUD operations",
+      "REST APIs using Spring Boot",
+      "Frontend–backend integration",
+      "Tested APIs using Postman"
+    ],
+    "github": "https://github.com/username/user-management"
+  },
+  {
+    "title": "Login & Signup Application",
+    "tech": "React, Spring Boot",
+    "desc": "Authentication system with JWT.",
+    "points": [
+      "User authentication",
+      "JWT-based security",
+      "Form validation"
+    ],
+    "github": "https://github.com/username/login-app"
+  },
+  {
+    "title": "REST API Project",
+    "tech": "Java, Spring Boot",
+    "desc": "Backend REST API application for data exchange.",
+    "points": [
+      "Created RESTful APIs using Spring Boot",
+      "Used JSON for data exchange",
+      "Tested APIs using Postman"
+    ],
+    "github": "https://github.com/Manisha-sultana"
+  }
+]
