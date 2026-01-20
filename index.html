@@ -3,41 +3,68 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Manisha | Software Engineer | Full Stack Developer
-        Java • Spring Boot • HTML • CSS • JavaScript
-
-    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex - Software Engineer Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- HERO -->
-    <section class="hero">
-        <img src="Image.png" alt="Manisha Sultana" class="profile-photo">
+    <!-- HEADER -->
+    <header class="header">
+        <h2 class="logo">Manisha</h2>
+        <nav class="navbar">
+            <a href="#hero">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-left">
+            <div class="image-circle">
+                <img src="Image.jpeg" alt="profile">
+            </div>
+        </div>
 
-        <h1>Hi, I'm Manisha Sultana</h1>
-        <p>Software Engineer | Full Stack Developer | Java • Spring Boot • HTML • CSS • JavaScript</p>
-        <a href="#projects" class="btn">View Projects</a>
+        <div class="hero-right">
+            <h1>Hi, I'm <span>Manisha</span></h1>
+            <h2>Software Engineer</h2>
+            <p>
+                I design and develop scalable web applications using modern
+                technologies. Passionate about clean code and problem solving.
+            </p>
+
+            <div class="socials">
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Manisha-sultana"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <button class="btn">More About Me
+                <p>
+                    I am a passionate Software Engineer with a strong interest in web development.
+                    I enjoy building responsive web applications and solving real-world problems
+                    using clean and efficient code. </p>
+                <p>
+                    I have hands-on experience with HTML, CSS, JavaScript, React, and backend
+                    technologies like Node.js and Spring Boot. I am always eager to learn new
+                    technologies and improve my skills.</p>
+            </button>
+    </section>
+    </div>
     </section>
 
-    <!-- ABOUT -->
-    <section class="about">
-        <h2>About Me</h2>
-        <p>
-            Fresher Software Engineer skilled in building scalable
-            backend APIs and modern frontend applications.
-        </p>
-    </section>
-
+    <!-- SKILLS SECTION -->
     <section id="skills" class="skills">
         <h2>Skills</h2>
 
         <!-- Frontend Skills -->
-        <h3>Frontend</h3>
-        <div class="skill-container">
+        <div class="skill">
             <span>HTML</span>
             <span>CSS</span>
             <span>JavaScript</span>
@@ -45,48 +72,57 @@
         </div>
 
         <!-- Backend Skills -->
-        <h3>Backend</h3>
-        <div class="skill-container">
+        <div class="skill">
             <span>Java</span>
             <span>Spring Boot</span>
             <span>REST APIs</span>
         </div>
 
-        <!-- Database -->
-        <h3>Database</h3>
-        <div class="skill-container">
+        <!-- Tools & Database -->
+        <div class="skill">
             <span>MySQL</span>
-        </div>
-
-        <!-- Tools -->
-        <h3>Tools</h3>
-        <div class="skill-container">
             <span>Git</span>
             <span>GitHub</span>
             <span>Postman</span>
         </div>
-
     </section>
 
-    <!-- PROJECTS -->
+
+    <!-- PROJECTS SECTION -->
     <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <div id="projectContainer"></div>
+        <h1>My Projects</h1>
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio built with HTML and CSS.</p>
+            <a href="https://app.netlify.com/teams/manishasultana668/projects" class="btn">Live</a>
+        </div>
+
+        <div class="card">
+            <h3>Evernote Clone</h3>
+            <p>Notes application to create, edit, and delete notes.</p>
+            <a href="https://github.com/Manisha-sultana" class="btn">View</a>
+        </div>
+
+        <div class="card">
+            <h3>Todo App</h3>
+            <p>Task management web app built using React and Node.js.</p>
+            <a href="https://github.com/Manisha-sultana" class="btn">View</a>
+        </div>
+
+        </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Email: manishasultana@668email.com</p>
-        <p>GitHub: https://github.com/Manisha-sultana</p>
-        <p>LinkedIn: https://www.linkedin.com/feed/</p>
-    </section>
-
-    <footer>
-        © 2026 Manisha | Full Stack Developer
+    <!-- FOOTER / CONTACT -->
+    <footer id="contact" class="footer">
+        <h2>Contact Me</h2>
+        <p>Email: manishasultana668@gmail.com| Phone: +91 8822349952</p>
+        <div class="socials">
+            <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Manisha-sultana"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>&copy; 2026 Manisha. All Rights Reserved.</p>
     </footer>
-
-    <script src="script.js"></script>
 
 </body>
 
