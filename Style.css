@@ -119,3 +119,11 @@ body {
     background: #ff2c2c;
     color: #000;
 }
+
+/* ABOUT ME */
+.about-me {
+    margin-top: 20px;
+    max-width: 420px;
+    line-height: 1.6;
+    color: #cbd5e1;
+}
